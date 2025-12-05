@@ -71,9 +71,9 @@ var burnedArea = classified.updateMask(burnedMask);
 
 // Define visualization for the burned area only (e.g., bright red).
 var burnedVis = {
-  min: 0,
+  min: 1,
   max: 1,
-  palette: ['FF0000','FF00FF'] 
+  palette: ['FF0000'] 
 };
 
 // Display the masked image.
