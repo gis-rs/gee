@@ -1,3 +1,6 @@
+//Load ROI and Training Data
+var roi = "Your ROI Geometry"
+
 //Load and Filter the Sentinel-2 Collection
 var sentinel2 = ee.ImageCollection('COPERNICUS/S2_SR_HARMONIZED')
                   .filterBounds(roi)
@@ -14,8 +17,7 @@ var visParams = {
 
 Map.addLayer(sentinel2, visParams, 'Sentinel-2 True Color');
 
-//Load ROI and Training Data
-var roi = "Your ROI Geometry"
+//Load Training Data
 var background = "Your Background Class FeatureCollection"
 var burned = "Your Burned Class FeatureCollection"
 
