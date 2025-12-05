@@ -1,3 +1,4 @@
+//For details explanation, watch this Youtube Video: https://youtu.be/9EhW14mmNvw
 //Load ROI and Training Data
 var roi = "Your ROI Geometry"
 
